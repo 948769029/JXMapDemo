@@ -9,10 +9,36 @@
 /* Begin PBXBuildFile section */
 		5DDFF52B1C016257005CEDC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFF52A1C016257005CEDC9 /* main.m */; };
 		5DDFF52E1C016257005CEDC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFF52D1C016257005CEDC9 /* AppDelegate.m */; };
-		5DDFF5311C016257005CEDC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFF5301C016257005CEDC9 /* ViewController.m */; };
 		5DDFF5341C016257005CEDC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFF5321C016257005CEDC9 /* Main.storyboard */; };
 		5DDFF5361C016257005CEDC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFF5351C016257005CEDC9 /* Assets.xcassets */; };
 		5DDFF5391C016257005CEDC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFF5371C016257005CEDC9 /* LaunchScreen.storyboard */; };
+		5DDFF5421C01631C005CEDC9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFF5411C01631C005CEDC9 /* MainViewController.m */; };
+		5DDFF54E1C016703005CEDC9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DDFF54D1C016703005CEDC9 /* MapKit.framework */; };
+		5DDFF5521C016ABE005CEDC9 /* JX01MapShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFF5501C016ABE005CEDC9 /* JX01MapShowViewController.m */; };
+		5DDFF5531C016ABE005CEDC9 /* JX01MapShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFF5511C016ABE005CEDC9 /* JX01MapShowViewController.xib */; };
+		5DDFF5571C016B77005CEDC9 /* JX02PortionMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFF5551C016B77005CEDC9 /* JX02PortionMapController.m */; };
+		5DDFF5581C016B77005CEDC9 /* JX02PortionMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFF5561C016B77005CEDC9 /* JX02PortionMapController.xib */; };
+		5DDFF55F1C016D18005CEDC9 /* JX033DMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFF55D1C016D18005CEDC9 /* JX033DMapController.m */; };
+		5DDFF5601C016D18005CEDC9 /* JX033DMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFF55E1C016D18005CEDC9 /* JX033DMapController.xib */; };
+		5DDFF5631C016D51005CEDC9 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFF5621C016D51005CEDC9 /* BaseViewController.m */; };
+		5DDFF56A1C018663005CEDC9 /* JX04ZooomMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFF5681C018663005CEDC9 /* JX04ZooomMapController.m */; };
+		5DDFF56B1C018663005CEDC9 /* JX04ZooomMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFF5691C018663005CEDC9 /* JX04ZooomMapController.xib */; };
+		5DDFF5721C018DED005CEDC9 /* JX05LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFF5701C018DED005CEDC9 /* JX05LocationViewController.m */; };
+		5DDFF5731C018DED005CEDC9 /* JX05LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFF5711C018DED005CEDC9 /* JX05LocationViewController.xib */; };
+		5DDFF5771C0198BF005CEDC9 /* JX06ShotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFF5751C0198BF005CEDC9 /* JX06ShotViewController.m */; };
+		5DDFF5781C0198BF005CEDC9 /* JX06ShotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFF5761C0198BF005CEDC9 /* JX06ShotViewController.xib */; };
+		5DEF02191C01AEB000B66494 /* JX07Annotation_1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF02171C01AEB000B66494 /* JX07Annotation_1ViewController.m */; };
+		5DEF021A1C01AEB000B66494 /* JX07Annotation_1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DEF02181C01AEB000B66494 /* JX07Annotation_1ViewController.xib */; };
+		5DEF021E1C01AF8300B66494 /* JX08Annotation_2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF021C1C01AF8300B66494 /* JX08Annotation_2ViewController.m */; };
+		5DEF021F1C01AF8300B66494 /* JX08Annotation_2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DEF021D1C01AF8300B66494 /* JX08Annotation_2ViewController.xib */; };
+		5DEF02231C01B52100B66494 /* JX09Annotation_3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF02211C01B52100B66494 /* JX09Annotation_3ViewController.m */; };
+		5DEF02241C01B52100B66494 /* JX09Annotation_3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DEF02221C01B52100B66494 /* JX09Annotation_3ViewController.xib */; };
+		5DEF02281C01B67B00B66494 /* JX10Annotation_4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF02261C01B67B00B66494 /* JX10Annotation_4ViewController.m */; };
+		5DEF02291C01B67B00B66494 /* JX10Annotation_4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DEF02271C01B67B00B66494 /* JX10Annotation_4ViewController.xib */; };
+		5DEF022F1C01B6CB00B66494 /* MyCustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF022C1C01B6CB00B66494 /* MyCustomAnnotation.m */; };
+		5DEF02301C01B6CB00B66494 /* MyCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF022E1C01B6CB00B66494 /* MyCustomAnnotationView.m */; };
+		5DEF02341C01B74800B66494 /* CustomCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DEF02311C01B74800B66494 /* CustomCalloutView.xib */; };
+		5DEF02351C01B74800B66494 /* CustomCalloutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF02331C01B74800B66494 /* CustomCalloutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +46,52 @@
 		5DDFF52A1C016257005CEDC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5DDFF52C1C016257005CEDC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5DDFF52D1C016257005CEDC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5DDFF52F1C016257005CEDC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5DDFF5301C016257005CEDC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5DDFF5331C016257005CEDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DDFF5351C016257005CEDC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DDFF5381C016257005CEDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DDFF53A1C016257005CEDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DDFF5401C01631C005CEDC9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5DDFF5411C01631C005CEDC9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5DDFF54D1C016703005CEDC9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5DDFF54F1C016ABE005CEDC9 /* JX01MapShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JX01MapShowViewController.h; sourceTree = "<group>"; };
+		5DDFF5501C016ABE005CEDC9 /* JX01MapShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JX01MapShowViewController.m; sourceTree = "<group>"; };
+		5DDFF5511C016ABE005CEDC9 /* JX01MapShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JX01MapShowViewController.xib; sourceTree = "<group>"; };
+		5DDFF5541C016B77005CEDC9 /* JX02PortionMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JX02PortionMapController.h; sourceTree = "<group>"; };
+		5DDFF5551C016B77005CEDC9 /* JX02PortionMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JX02PortionMapController.m; sourceTree = "<group>"; };
+		5DDFF5561C016B77005CEDC9 /* JX02PortionMapController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JX02PortionMapController.xib; sourceTree = "<group>"; };
+		5DDFF55C1C016D18005CEDC9 /* JX033DMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JX033DMapController.h; sourceTree = "<group>"; };
+		5DDFF55D1C016D18005CEDC9 /* JX033DMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JX033DMapController.m; sourceTree = "<group>"; };
+		5DDFF55E1C016D18005CEDC9 /* JX033DMapController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JX033DMapController.xib; sourceTree = "<group>"; };
+		5DDFF5611C016D51005CEDC9 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		5DDFF5621C016D51005CEDC9 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		5DDFF5671C018663005CEDC9 /* JX04ZooomMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JX04ZooomMapController.h; path = ../JX04ZooomMapController.h; sourceTree = "<group>"; };
+		5DDFF5681C018663005CEDC9 /* JX04ZooomMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JX04ZooomMapController.m; path = ../JX04ZooomMapController.m; sourceTree = "<group>"; };
+		5DDFF5691C018663005CEDC9 /* JX04ZooomMapController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JX04ZooomMapController.xib; path = ../JX04ZooomMapController.xib; sourceTree = "<group>"; };
+		5DDFF56F1C018DED005CEDC9 /* JX05LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JX05LocationViewController.h; path = ../JX05LocationViewController.h; sourceTree = "<group>"; };
+		5DDFF5701C018DED005CEDC9 /* JX05LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JX05LocationViewController.m; path = ../JX05LocationViewController.m; sourceTree = "<group>"; };
+		5DDFF5711C018DED005CEDC9 /* JX05LocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JX05LocationViewController.xib; path = ../JX05LocationViewController.xib; sourceTree = "<group>"; };
+		5DDFF5741C0198BF005CEDC9 /* JX06ShotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JX06ShotViewController.h; sourceTree = "<group>"; };
+		5DDFF5751C0198BF005CEDC9 /* JX06ShotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JX06ShotViewController.m; sourceTree = "<group>"; };
+		5DDFF5761C0198BF005CEDC9 /* JX06ShotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JX06ShotViewController.xib; sourceTree = "<group>"; };
+		5DEF02161C01AEB000B66494 /* JX07Annotation_1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JX07Annotation_1ViewController.h; sourceTree = "<group>"; };
+		5DEF02171C01AEB000B66494 /* JX07Annotation_1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JX07Annotation_1ViewController.m; sourceTree = "<group>"; };
+		5DEF02181C01AEB000B66494 /* JX07Annotation_1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JX07Annotation_1ViewController.xib; sourceTree = "<group>"; };
+		5DEF021B1C01AF8300B66494 /* JX08Annotation_2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JX08Annotation_2ViewController.h; sourceTree = "<group>"; };
+		5DEF021C1C01AF8300B66494 /* JX08Annotation_2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JX08Annotation_2ViewController.m; sourceTree = "<group>"; };
+		5DEF021D1C01AF8300B66494 /* JX08Annotation_2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JX08Annotation_2ViewController.xib; sourceTree = "<group>"; };
+		5DEF02201C01B52100B66494 /* JX09Annotation_3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JX09Annotation_3ViewController.h; sourceTree = "<group>"; };
+		5DEF02211C01B52100B66494 /* JX09Annotation_3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JX09Annotation_3ViewController.m; sourceTree = "<group>"; };
+		5DEF02221C01B52100B66494 /* JX09Annotation_3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JX09Annotation_3ViewController.xib; sourceTree = "<group>"; };
+		5DEF02251C01B67B00B66494 /* JX10Annotation_4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JX10Annotation_4ViewController.h; sourceTree = "<group>"; };
+		5DEF02261C01B67B00B66494 /* JX10Annotation_4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JX10Annotation_4ViewController.m; sourceTree = "<group>"; };
+		5DEF02271C01B67B00B66494 /* JX10Annotation_4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JX10Annotation_4ViewController.xib; sourceTree = "<group>"; };
+		5DEF022B1C01B6CB00B66494 /* MyCustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomAnnotation.h; sourceTree = "<group>"; };
+		5DEF022C1C01B6CB00B66494 /* MyCustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomAnnotation.m; sourceTree = "<group>"; };
+		5DEF022D1C01B6CB00B66494 /* MyCustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomAnnotationView.h; sourceTree = "<group>"; };
+		5DEF022E1C01B6CB00B66494 /* MyCustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomAnnotationView.m; sourceTree = "<group>"; };
+		5DEF02311C01B74800B66494 /* CustomCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCalloutView.xib; sourceTree = "<group>"; };
+		5DEF02321C01B74800B66494 /* CustomCalloutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCalloutViewController.h; sourceTree = "<group>"; };
+		5DEF02331C01B74800B66494 /* CustomCalloutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCalloutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DDFF54E1C016703005CEDC9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +109,7 @@
 		5DDFF51D1C016257005CEDC9 = {
 			isa = PBXGroup;
 			children = (
+				5DDFF54D1C016703005CEDC9 /* MapKit.framework */,
 				5DDFF5281C016257005CEDC9 /* JXMapDemo */,
 				5DDFF5271C016257005CEDC9 /* Products */,
 			);
@@ -58,10 +126,43 @@
 		5DDFF5281C016257005CEDC9 /* JXMapDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5DEF022A1C01B6B400B66494 /* Model */,
+				5DDFF5401C01631C005CEDC9 /* MainViewController.h */,
+				5DDFF5411C01631C005CEDC9 /* MainViewController.m */,
+				5DDFF5611C016D51005CEDC9 /* BaseViewController.h */,
+				5DDFF5621C016D51005CEDC9 /* BaseViewController.m */,
+				5DDFF54F1C016ABE005CEDC9 /* JX01MapShowViewController.h */,
+				5DDFF5501C016ABE005CEDC9 /* JX01MapShowViewController.m */,
+				5DDFF5511C016ABE005CEDC9 /* JX01MapShowViewController.xib */,
+				5DDFF5541C016B77005CEDC9 /* JX02PortionMapController.h */,
+				5DDFF5551C016B77005CEDC9 /* JX02PortionMapController.m */,
+				5DDFF5561C016B77005CEDC9 /* JX02PortionMapController.xib */,
+				5DDFF55C1C016D18005CEDC9 /* JX033DMapController.h */,
+				5DDFF55D1C016D18005CEDC9 /* JX033DMapController.m */,
+				5DDFF55E1C016D18005CEDC9 /* JX033DMapController.xib */,
+				5DDFF5671C018663005CEDC9 /* JX04ZooomMapController.h */,
+				5DDFF5681C018663005CEDC9 /* JX04ZooomMapController.m */,
+				5DDFF5691C018663005CEDC9 /* JX04ZooomMapController.xib */,
+				5DDFF56F1C018DED005CEDC9 /* JX05LocationViewController.h */,
+				5DDFF5701C018DED005CEDC9 /* JX05LocationViewController.m */,
+				5DDFF5711C018DED005CEDC9 /* JX05LocationViewController.xib */,
+				5DDFF5741C0198BF005CEDC9 /* JX06ShotViewController.h */,
+				5DDFF5751C0198BF005CEDC9 /* JX06ShotViewController.m */,
+				5DDFF5761C0198BF005CEDC9 /* JX06ShotViewController.xib */,
+				5DEF02161C01AEB000B66494 /* JX07Annotation_1ViewController.h */,
+				5DEF02171C01AEB000B66494 /* JX07Annotation_1ViewController.m */,
+				5DEF02181C01AEB000B66494 /* JX07Annotation_1ViewController.xib */,
+				5DEF021B1C01AF8300B66494 /* JX08Annotation_2ViewController.h */,
+				5DEF021C1C01AF8300B66494 /* JX08Annotation_2ViewController.m */,
+				5DEF021D1C01AF8300B66494 /* JX08Annotation_2ViewController.xib */,
+				5DEF02201C01B52100B66494 /* JX09Annotation_3ViewController.h */,
+				5DEF02211C01B52100B66494 /* JX09Annotation_3ViewController.m */,
+				5DEF02221C01B52100B66494 /* JX09Annotation_3ViewController.xib */,
+				5DEF02251C01B67B00B66494 /* JX10Annotation_4ViewController.h */,
+				5DEF02261C01B67B00B66494 /* JX10Annotation_4ViewController.m */,
+				5DEF02271C01B67B00B66494 /* JX10Annotation_4ViewController.xib */,
 				5DDFF52C1C016257005CEDC9 /* AppDelegate.h */,
 				5DDFF52D1C016257005CEDC9 /* AppDelegate.m */,
-				5DDFF52F1C016257005CEDC9 /* ViewController.h */,
-				5DDFF5301C016257005CEDC9 /* ViewController.m */,
 				5DDFF5321C016257005CEDC9 /* Main.storyboard */,
 				5DDFF5351C016257005CEDC9 /* Assets.xcassets */,
 				5DDFF5371C016257005CEDC9 /* LaunchScreen.storyboard */,
@@ -77,6 +178,20 @@
 				5DDFF52A1C016257005CEDC9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DEF022A1C01B6B400B66494 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DEF022B1C01B6CB00B66494 /* MyCustomAnnotation.h */,
+				5DEF022C1C01B6CB00B66494 /* MyCustomAnnotation.m */,
+				5DEF022D1C01B6CB00B66494 /* MyCustomAnnotationView.h */,
+				5DEF022E1C01B6CB00B66494 /* MyCustomAnnotationView.m */,
+				5DEF02311C01B74800B66494 /* CustomCalloutView.xib */,
+				5DEF02321C01B74800B66494 /* CustomCalloutViewController.h */,
+				5DEF02331C01B74800B66494 /* CustomCalloutViewController.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +225,12 @@
 				TargetAttributes = {
 					5DDFF5251C016257005CEDC9 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = ESEPHFC33D;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -136,8 +257,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DEF021A1C01AEB000B66494 /* JX07Annotation_1ViewController.xib in Resources */,
+				5DDFF5581C016B77005CEDC9 /* JX02PortionMapController.xib in Resources */,
+				5DEF02291C01B67B00B66494 /* JX10Annotation_4ViewController.xib in Resources */,
+				5DDFF5781C0198BF005CEDC9 /* JX06ShotViewController.xib in Resources */,
+				5DDFF5531C016ABE005CEDC9 /* JX01MapShowViewController.xib in Resources */,
+				5DDFF5601C016D18005CEDC9 /* JX033DMapController.xib in Resources */,
+				5DEF021F1C01AF8300B66494 /* JX08Annotation_2ViewController.xib in Resources */,
+				5DEF02241C01B52100B66494 /* JX09Annotation_3ViewController.xib in Resources */,
 				5DDFF5391C016257005CEDC9 /* LaunchScreen.storyboard in Resources */,
 				5DDFF5361C016257005CEDC9 /* Assets.xcassets in Resources */,
+				5DDFF56B1C018663005CEDC9 /* JX04ZooomMapController.xib in Resources */,
+				5DDFF5731C018DED005CEDC9 /* JX05LocationViewController.xib in Resources */,
+				5DEF02341C01B74800B66494 /* CustomCalloutView.xib in Resources */,
 				5DDFF5341C016257005CEDC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,9 +281,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DDFF5311C016257005CEDC9 /* ViewController.m in Sources */,
+				5DEF021E1C01AF8300B66494 /* JX08Annotation_2ViewController.m in Sources */,
+				5DDFF55F1C016D18005CEDC9 /* JX033DMapController.m in Sources */,
 				5DDFF52E1C016257005CEDC9 /* AppDelegate.m in Sources */,
+				5DEF02351C01B74800B66494 /* CustomCalloutViewController.m in Sources */,
+				5DDFF5521C016ABE005CEDC9 /* JX01MapShowViewController.m in Sources */,
+				5DEF02281C01B67B00B66494 /* JX10Annotation_4ViewController.m in Sources */,
+				5DDFF5421C01631C005CEDC9 /* MainViewController.m in Sources */,
+				5DDFF5771C0198BF005CEDC9 /* JX06ShotViewController.m in Sources */,
+				5DDFF5721C018DED005CEDC9 /* JX05LocationViewController.m in Sources */,
+				5DDFF5571C016B77005CEDC9 /* JX02PortionMapController.m in Sources */,
+				5DEF02231C01B52100B66494 /* JX09Annotation_3ViewController.m in Sources */,
+				5DEF02301C01B6CB00B66494 /* MyCustomAnnotationView.m in Sources */,
+				5DDFF5631C016D51005CEDC9 /* BaseViewController.m in Sources */,
+				5DEF02191C01AEB000B66494 /* JX07Annotation_1ViewController.m in Sources */,
 				5DDFF52B1C016257005CEDC9 /* main.m in Sources */,
+				5DDFF56A1C018663005CEDC9 /* JX04ZooomMapController.m in Sources */,
+				5DEF022F1C01B6CB00B66494 /* MyCustomAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +409,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESEPHFC33D;
 				INFOPLIST_FILE = JXMapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.cqut.JXMapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +422,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESEPHFC33D;
 				INFOPLIST_FILE = JXMapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.cqut.JXMapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +450,7 @@
 				5DDFF53F1C016257005CEDC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

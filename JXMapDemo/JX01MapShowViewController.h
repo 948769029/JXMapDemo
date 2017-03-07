@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JX01MapShowViewController.h
 //  JXMapDemo
 //
 //  Created by JackXu on 15/11/22.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JX01MapShowViewController : UIViewController
 
 @end
-
